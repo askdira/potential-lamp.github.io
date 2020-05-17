@@ -1,0 +1,57 @@
+# potential-lamp.github.io
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+</style>
+</head>
+<body>
+
+<h2 style="text-align:center"> </h2>
+
+<div class="card">
+  <img src="https://farm4.staticflickr.com/3850/14352028775_8e705c4bc7_o.jpg" alt="John" style="width:100%">
+  <h1>Hesti</h1>
+  <p class="title">Hari ini adalah hari kelahiranmu</p>
+  <p>Selamat, semoga kebaikan dan keinginanmu selalu tercapai.</p>
+  <p><button>&#128512;</button></p>
+</div>
+
+</body>
+</html>
